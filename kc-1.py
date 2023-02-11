@@ -4,6 +4,8 @@ print(greeting)
 
 # Creating a list with strings, ints, etc. 
 candies = ["gummy", "sour", "spicy", "chocolate"]
+
+#DELETED PRICES OLD
 print(candies)
 for x in candies:
     print(x)
