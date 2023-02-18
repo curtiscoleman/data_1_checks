@@ -3,21 +3,15 @@ greeting = "Hello World!"
 print(greeting)
 
 # Creating a list with strings, ints, etc. 
-candies = ["gummy", "sour", "spicy", "chocolate"]
+lists = ["gummy", 69 , "spicy", "My bologna has a first name!", 3.14]
+# Removed for loop
+print(lists[1])
 
-#DELETED PRICES OLD
-print(candies)
-for x in candies:
-    print(x)
- 
-   # Creating a dictionary
-candy_prices = {}
-prices = 0.50
-for item in candies:
-    candy_prices[item] = prices
-    prices = (prices + 1)
-print(candy_prices)
+# Creating a dictionary
+dicts = {"lemon": 2, "berry": 4, "tropical": 6}
+print(dicts["berry"])
+
 
 # Tuple
 random_things = ("Star", [14, 23], (2, 4, 6), "The Color Green")
-print(random_things)
+print(random_things[3])
